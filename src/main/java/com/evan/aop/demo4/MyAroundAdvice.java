@@ -4,7 +4,7 @@ package com.evan.aop.demo4;
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 
-public class MyAroudAdvice implements MethodInterceptor {
+public class MyAroundAdvice implements MethodInterceptor {
 
     @Override
     public Object invoke(MethodInvocation methodInvocation) throws Throwable {

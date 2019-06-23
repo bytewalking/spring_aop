@@ -11,8 +11,8 @@ import javax.annotation.Resource;
 @ContextConfiguration("classpath:applicationContext2.xml")
 public class SpringDemo4 {
 
-    @Resource(name = "customerDao")
-    //@Resource(name = "cunstomerDaoProxy")
+    //@Resource(name = "customerDao")
+    @Resource(name = "customerDaoProxy")
     private CustomerDao customerDao;
 
     @Test
